@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+}
+
+::selection {
+  color: white;
+  background: black;
+}
+
+.navbar {
+  background-color: #a8a8a8;
+  font-weight: 500 !important;
+  padding: 5px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar img {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#about h4, #whattodo h4, #testing h4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  background-color: black;
+  width: 30%;
+  margin: 100px auto 0px;
+  z-index: 1;
+  border-radius: 50px;
+  font-size: 26px;
+  font-weight: 200;
+  color: white;
+}
+
+#about span, #whattodo span, #testing span {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85px;
+  width: 60%;
+  border-radius: 50px;
+  margin: 10px auto 0px;
+  z-index: 1;
+  font-size: 22px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+  background-color: rgba(139, 139, 139, 0.514);
+}
+
+.info-one, .info-two, .info-three, .info-four, .info-five {
+  z-index: 0;
+  padding-top: 100px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.info-one .container, .info-two .container, .info-three .container, .info-four .container, .info-five .container {
+  width: 65%;
+  margin: auto;
+}
+
+.info-one .container i, .info-two .container i, .info-three .container i, .info-four .container i, .info-five .container i {
+  background-color: #f9c833;
+  border-radius: 20%;
+  display: inline;
+  color: white;
+  font-size: 26px;
+  padding: 2px;
+}
+
+.info-one .container h2, .info-two .container h2, .info-three .container h2, .info-four .container h2, .info-five .container h2 {
+  display: inline;
+  margin-left: 10px;
+}
+
+.info-one .container p, .info-two .container p, .info-three .container p, .info-four .container p, .info-five .container p {
+  margin-top: 15px;
+  border-bottom: 1px solid black;
+}
+
+.info-one .container ul, .info-two .container ul, .info-three .container ul, .info-four .container ul, .info-five .container ul {
+  padding-top: 10px;
+}
+
+.info-one .container ul li, .info-two .container ul li, .info-three .container ul li, .info-four .container ul li, .info-five .container ul li {
+  margin-bottom: 10px;
+}
+
+.info-one .container ul li::before, .info-two .container ul li::before, .info-three .container ul li::before, .info-four .container ul li::before, .info-five .container ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.info-two i {
+  background-color: #67ca73 !important;
+}
+
+.info-three i {
+  background-color: #9368ec !important;
+}
+
+.info-four i {
+  background-color: #ec6d6e !important;
+}
+
+.info-five i {
+  background-color: #5dbdc6 !important;
+}
+
+footer {
+  background-color: black;
+}
+
+footer h6 {
+  color: white;
+  width: 80%;
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px auto 0;
+}
+
+@media (max-width: 992px) {
+  #about h4, #about span, #whattodo h4, #whattodo span, #testing h4, #testing span {
+    width: auto;
+    border-radius: 0px;
+  }
+  .info-one .container, .info-two .container, .info-three .container, .info-four .container, .info-five .container {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
