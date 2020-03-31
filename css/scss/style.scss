@@ -149,13 +149,25 @@ body{
 
 footer{
     background-color: black;
+    margin-top: 50px;
+    height: 70px;
+    h5{
+    color: white;
+    width: 80%;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    line-height: 40px;
+    }
     h6{
     color: white;
     width: 80%;
-    font-size: 22px;
-    font-weight: 100;
+    font-size: 14px;
+    font-weight: 200;
     text-align: center;
-    margin: 30px auto 0;
+    margin: 0px auto 0;
     }
 }
 
